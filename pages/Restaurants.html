@@ -7,10 +7,98 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="../style.css">
+    <script src="https://kit.fontawesome.com/83f4286022.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Odin</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Photos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Carte</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Restaurants</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
 
+    <section class="w-75 d-flex">
+
+        <div>
+            <h3>En France</h3>
+            <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+                <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div><script>(function () {
+                var setting = {"height":347,"width":512,"zoom":17,"queryString":"8 Rue Ambroise Thomas, 75009 Paris, France","place_id":"ChIJCU8bExVu5kcR7bnltCCqF24","satellite":false,"centerCoord":[48.874601468187656,2.3474487999999916],"cid":"0x6e17aa20b4e5b9ed","lang":"fr","cityUrl":"/france/paris","cityAnchorText":"Carte de Paris, Ile de France, France","id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"388616"};
+                var d = document;
+                var s = d.createElement('script');
+                s.src = 'https://1map.com/js/script-for-user.js?embed_id=388616';
+                s.async = true;
+                s.onload = function (e) {
+                  window.OneMap.initMap(setting)
+                };
+                var to = d.getElementsByTagName('script')[0];
+                to.parentNode.insertBefore(s, to);
+              })();</script><a href="https://1map.com/fr/map-embed">1 Map</a></div>
+        
+
+            <h3>En Belgique</h3> 
+            <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+                <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div><script>(function () {
+                var setting = {"height":347,"width":512,"zoom":17,"queryString":"Avenue Krechtenbroek 25, Rhode-Saint-Genèse, Belgique","place_id":"ChIJmaO4NY7Pw0cRRIQ2xy66kcM","satellite":false,"centerCoord":[50.75474610205241,4.359815165778818],"cid":"0xc391ba2ec7368444","lang":"fr","cityUrl":"/belgium/brussels","cityAnchorText":"Carte de Bruxelles, Flanders, Belgique","id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"388616"};
+                var d = document;
+                var s = d.createElement('script');
+                s.src = 'https://1map.com/js/script-for-user.js?embed_id=388616';
+                s.async = true;
+                s.onload = function (e) {
+                  window.OneMap.initMap(setting)
+                };
+                var to = d.getElementsByTagName('script')[0];
+                to.parentNode.insertBefore(s, to);
+              })();</script><a href="https://1map.com/fr/map-embed">1 Map</a></div>
+        </div>
+
+        <div>
+            <div>
+                <p>Numéros de téléphones:</p>
+                <p>En France</p>
+                <p>07376914</p>
+                <p>En Belgique</p>
+                <p>023178694</p>
+                <p><i class="far fa-envelope"></i>Adresse mail:</p>
+                <p>contact@odin.be</p>
+            </div>
+
+            <ul>
+                <li>Lundi: 9h00 - 18h00</li>
+                <li>Mardi: 9h00 - 18h00</li>
+                <li>Mercredi: 9h00 - 16h00</li>
+                <li>Jeudi: 9h00 - 18h00</li>
+                <li>Vendredi: 9h00 - 15h00</li>
+                <li>Samedi: 10h00 - 14h00</li>
+                <li>Dimanche: Fermé</li>
+            </ul>
+        </div>
+
+    </section>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
