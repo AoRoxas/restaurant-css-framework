@@ -42,6 +42,9 @@
     </header>
 
     <section class="w-75 m-auto shadow">
+
+      <!-- NEWS -->
+
         <h2 class="pt-4 ps-4">News</h2>
         <hr class="w-25">
         <div class="w-100 d-flex justify-content-center">
@@ -86,45 +89,65 @@
 
         </div>
 
+        <!-- Articles -->
 
           <h2 class="pt-4 ps-4">Articles</h2>
           <hr class="w-25 ps-4">
 
-          <div class="d-flex justify-content-evenly">
-            <div class="card w-25">
-              <h5 class="card-header">Manga</h5>
-              <div class="card-body">
-                <h5 class="card-title">La censure dans les mangas</h5>
-                <p class="card-text">Découvrez l'histoire de la censure au pays du soleil levant.</p>
-                <a href="#" class="btn btn-dark">Lire</a>
-              </div>
-            </div>
-  
-            <div class="card w-25">
-              <h5 class="card-header">Anime</h5>
-              <div class="card-body">
-                <h5 class="card-title">Travailler dans l'animation</h5>
-                <p class="card-text">Un article dédié aux durs métiers de l'animation</p>
-                <a href="#" class="btn btn-dark">Lire</a>
-              </div>
-            </div>
-
-            <div class="card" style="width: 18rem;">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Jeux vidéos</h5>
-                <p class="card-text">Notre liste coup de coeur de la semaine</p>
-                <a href="#" class="btn btn-dark">Lire</a>
+          <div class="container-fluid">
+            <div class="container">
+              <div class="row">
+                <div class="offset-xl-1 col-xl-4 col-md-12">
+                  <div class="card mb-2 mt-5">
+                    <h5 class="card-header">Mangas</h5>
+                    <div class="card-body">
+                      <h5 class="card-title">La censure dans les mangas</h5>
+                      <p class="card-text">Découvrez l'histoire de la censure au pays du soleil levant.</p>
+                      <a href="#" class="btn btn-dark">Lire</a>
+                    </div>
+                    <div class="card">
+                      <h5 class="card-header">Animes</h5>
+                      <div class="card-body">
+                        <h5 class="card-title">Travailler dans l'animation</h5>
+                        <p class="card-text">Un article dédié aux durs métiers de l'animation.</p>
+                        <a href="#" class="btn btn-dark">Lire</a>
+                      </div>
+                    </div>
+                </div>
+                </div>
+                  <!-- Seconde card avec image -->
+                  <div class="offset-xl-3 col-xl-2 col-md-12">
+                    <div class="card">
+                      <img src="./src/fragile.jpg" class="card-img-top" alt="fragile_dreams">
+                      <div class="card-body">
+                        <h5 class="card-title">Jeux vidéos</h5>
+                        <p class="card-text">Notre liste coup de coeur de la semaine.</p>
+                        <a href="#" class="btn btn-dark">Lire</a>
+                      </div>
+                    </div>
+                  </div>
               </div>
             </div>
           </div>
+      
+          <!-- Vidéo -->
 
+        <h2 class="pt-4 ps-4">Vidéo</h2>
+        <hr class="w-25 ps-4">
 
+        <iframe class="w-100 p-3 d-block mx-auto" width="1080" height="920" src="https://www.youtube.com/embed/QlFRoUMkUDw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     </section>
 
-    <footer>
-        Odin © - 2021
+    <footer class="bg-dark m-auto pb-2">
+        <div class="w-100 d-flex justify-content-center align-items-center pb-2">
+          <a class="nav-link active text-white" aria-current="page" href="#">Accueil</a>
+          <a class="nav-link active text-white" href="#">Photos</a>
+          <a class="nav-link active text-white" href="#">Carte</a>
+          <a class="nav-link active text-white" href="#" tabindex="-1" aria-disabled="true">Restaurants</a>
+          <a class="nav-link active text-white" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+        </div>
+        <p class="d-flex justify-content-center text-white">Odin © - 2021</p>  
     </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>

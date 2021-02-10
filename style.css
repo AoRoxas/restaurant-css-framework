@@ -1,3 +1,27 @@
+/* Mobile*/
+
+@media screen and (min-width:656px) and (max-width:991px){
+    .navbar-brand{
+        width: 20rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .test{
+        display: block;
+        margin-left: auto;
+        margin-bottom: auto;
+    }
+
+}
+
+
+
+
+
+/* Site PC*/
+
 section{
     background-color: rgb(179, 179, 179);
 }
@@ -8,6 +32,10 @@ body{
 
 header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar-brand{
+    margin-left: 14rem;
 }
 
 /*Accueil*/
