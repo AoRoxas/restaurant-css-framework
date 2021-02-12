@@ -60,4 +60,11 @@ h2{
     font-size: 3rem;
 }
 
+.horaire{
+    list-style-type: none;
+}
+
+h3{
+    color: white;
+}
 

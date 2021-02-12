@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Infos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="../style.css">
     <script src="https://kit.fontawesome.com/83f4286022.js" crossorigin="anonymous"></script>
@@ -43,66 +44,74 @@
 
     <section class="w-75 m-auto shadow">
 
-        <div class="container-fluid">
-          <div class="container">
-            <div class="row">
-              <div class="offset-xl-1 col-xl-4 col-md-12">
-                <h3>En France</h3>
-                <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
-                    <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div><script>(function () {
-                    var setting = {"height":347,"width":512,"zoom":17,"queryString":"8 Rue Ambroise Thomas, 75009 Paris, France","place_id":"ChIJCU8bExVu5kcR7bnltCCqF24","satellite":false,"centerCoord":[48.874601468187656,2.3474487999999916],"cid":"0x6e17aa20b4e5b9ed","lang":"fr","cityUrl":"/france/paris","cityAnchorText":"Carte de Paris, Ile de France, France","id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"388616"};
-                    var d = document;
-                    var s = d.createElement('script');
-                    s.src = 'https://1map.com/js/script-for-user.js?embed_id=388616';
-                    s.async = true;
-                    s.onload = function (e) {
-                      window.OneMap.initMap(setting)
-                    };
-                    var to = d.getElementsByTagName('script')[0];
-                    to.parentNode.insertBefore(s, to);
-                  })();</script><a href="https://1map.com/fr/map-embed">1 Map</a></div>
-            
-    
-                <h3>En Belgique</h3> 
-                <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
-                    <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div><script>(function () {
-                    var setting = {"height":347,"width":512,"zoom":17,"queryString":"Avenue Krechtenbroek 25, Rhode-Saint-Genèse, Belgique","place_id":"ChIJmaO4NY7Pw0cRRIQ2xy66kcM","satellite":false,"centerCoord":[50.75474610205241,4.359815165778818],"cid":"0xc391ba2ec7368444","lang":"fr","cityUrl":"/belgium/brussels","cityAnchorText":"Carte de Bruxelles, Flanders, Belgique","id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"388616"};
-                    var d = document;
-                    var s = d.createElement('script');
-                    s.src = 'https://1map.com/js/script-for-user.js?embed_id=388616';
-                    s.async = true;
-                    s.onload = function (e) {
-                      window.OneMap.initMap(setting)
-                    };
-                    var to = d.getElementsByTagName('script')[0];
-                    to.parentNode.insertBefore(s, to);
-                  })();</script><a href="https://1map.com/fr/map-embed">1 Map</a></div>
+      <h2 class="pt-4 ps-4">Infos</h2>
+      <hr class="w-25 ps-4">
+
+      
+
+      <div class="container">
+        <div class="row row-cols-7">
+          <div class="col-lg-6">
+            <h3 class="pt-4">Siège social en France</h3>
+            <hr class="w-25 ps-4">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.14037296734!2d2.345323915860303!3d48.87460050751902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e15131b4f09%3A0x6e17aa20b4e5b9ed!2s8%20Rue%20Ambroise%20Thomas%2C%2075009%20Paris%2C%20France!5e0!3m2!1sfr!2sbe!4v1613154025059!5m2!1sfr!2sbe" width="550" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="pt-4">Siège social en Belgique</h3>
+            <hr class="w-25 ps-4">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2524.1252518167303!2d4.3573026159104975!3d50.75471117327517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3cf8fcdac7045%3A0x61e58e7ff37ed12e!2sAvenue%20Krechtenbroek%2025%2C%201640%20Rhode-Saint-Gen%C3%A8se!5e0!3m2!1sfr!2sbe!4v1613154288299!5m2!1sfr!2sbe" width="550" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion accordion-flush w-75 mx-auto" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Nos horaires
+            </button>
+          </h3>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">            
+              <ul class="list-group list-group-flush">
+              <li class="horaire">Lundi: 9h00 - 18h00</li>
+              <li class="horaire">Mardi: 9h00 - 18h00</li>
+              <li class="horaire">Mercredi: 9h00 - 16h00</li>
+              <li class="horaire">Jeudi: 9h00 - 18h00</li>
+              <li class="horaire">Vendredi: 9h00 - 15h00</li>
+              <li class="horaire">Samedi: 10h00 - 14h00</li>
+              <li class="horaire">Dimanche: Fermé</li>
+            </ul></div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Contact en France
+            </button>
+          </h3>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <p><i class="fas fa-phone me-1"></i>Numéro de téléphone: +337376914</p>
+              <p><i class="far fa-envelope me-1"></i>Adresse mail: contact@odin.be</p>
             </div>
-    
-            <div>
-                <div>
-                    <p>Numéros de téléphones:</p>
-                    <p>En France</p>
-                    <p>07376914</p>
-                    <p>En Belgique</p>
-                    <p>023178694</p>
-                    <p><i class="far fa-envelope"></i>Adresse mail:</p>
-                    <p>contact@odin.be</p>
-                </div>
-    
-                <ul>
-                    <li>Lundi: 9h00 - 18h00</li>
-                    <li>Mardi: 9h00 - 18h00</li>
-                    <li>Mercredi: 9h00 - 16h00</li>
-                    <li>Jeudi: 9h00 - 18h00</li>
-                    <li>Vendredi: 9h00 - 15h00</li>
-                    <li>Samedi: 10h00 - 14h00</li>
-                    <li>Dimanche: Fermé</li>
-                </ul>
-                  </div>
-                </div>
-              </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Contact en Belgique
+            </button>
+          </h3>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <p><i class="fas fa-phone me-1"></i>Numéro de téléphone: +3223178694 </p>
+              <p><i class="far fa-envelope me-1"></i>Adresse mail: contact@odin.be</p>
             </div>
+          </div>
+        </div>
+      </div>
+
 
     </section>
       
