@@ -14,6 +14,7 @@
         margin-bottom: auto;
     }
 
+
 }
 
 
@@ -25,6 +26,7 @@
 
 section{
     background-color: rgb(179, 179, 179);
+    min-height: 80vh;
 }
 
 body{
@@ -67,4 +69,6 @@ h2{
 h3{
     color: white;
 }
+
+
 
