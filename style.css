@@ -1,4 +1,4 @@
-/* Mobile*/
+
 
 @media screen and (min-width:656px) and (max-width:991px){
     .navbar-brand{
@@ -14,10 +14,17 @@
         margin-bottom: auto;
     }
 
-
 }
 
+@media screen and (min-width:356px) and (max-width:554px){
+    .cartes{
+        padding-bottom: 2rem;
+    }
 
+    .navbar-brand{
+        margin-left: 0rem;
+    }
+}
 
 
 
